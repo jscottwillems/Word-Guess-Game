@@ -1,120 +1,114 @@
 html, body {
 	margin: 0;
 	padding: 0;
-  background-color:rgb(84, 21, 97);
-  font-family: 'Press Start 2P', cursive;
-	    }
-
-#topbar{
- height:50px;
- margin:auto;
- margin-top:50px;
- color: #fff;
- font-size:36px;
- width:800px;
- border-bottom:solid black 3px;
+	background-color: rgb(84, 21, 97);
+	font-family: 'Press Start 2P', cursive;
 }
 
-#gameContent{
- margin:auto;	
- width:800px;
- height:400px;
- position:relative;
- overflow:hidden;
- background-color:rgb(132, 51, 170);
+#topbar {
+	height: 50px; 
+	margin: auto;
+	margin-top: 50px;
+	color: #fff;
+	font-size: 36px;
+	width: 800px;
+	border-bottom: solid black 3px;
 }
 
-.spacer{height:30px;}
+#gameContent {
+	margin: auto;	
+	width: 800px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	background-color: rgb(132, 51, 170);
+}
 
+.spacer {
+	height: 30px;
+}
 
+#gameTitle {
+	margin-top: 130px;
+	text-align: center;
+	font-size: 40px;
+	color: black;
+}
 
+.button {
+	font-size: 13px;
+	width: 100px;
+	margin: auto;
+	padding: 3px;
+	margin-top: 20px;
+	cursor: pointer;
+	border: solid 1px white;
+	border-radius: 4px;
+	text-align: center;
+	color: #fff;
+}
 
-#gameTitle{
- margin-top:130px;
- text-align:center;
- font-size:40px;
- color:black;}
+.button:hover {
+	background-color: rgb(210, 130, 247);
+}
 
-.button{font-size:13px;
- width:100px;
- margin:auto;
- padding: 3px;
- margin-top:20px;
- cursor:pointer;
- border:solid 1px white;
- border-radius:4px;
- text-align:center;
- color:#fff;}
-
-.button:hover{
- background-color:rgb(210, 130, 247);}
-
-#replay{
- margin-left:0px;}
- 
-
-
-
-
-
-#wordHolder{
- margin-top:80px;
- margin-left:250px;
+#replay {
+	margin-left: 0px;
 }
  
-#clueHolder{
- margin-top:130px;
- margin-left:250px;
+#wordHolder {
+	margin-top: 80px;
+	margin-left: 250px;
 }
  
-#guesses{
- margin-top:20px;
- margin-left:250px;
+#clueHolder {
+	margin-top: 150px;
+	margin-left: 250px;
 }
  
-#pixHolder{
- margin-top: 50px;
- margin-left:30px;
- width:152px;
- float:left;
- overflow:hidden;
+#guesses {
+	margin-top: 20px;
+	margin-left: 250px;
 }
  
-#pixHolder img{
- position:relative;}
- 
-#feedback{
- margin-top:20px;
- margin-left:250px;
- font-size:34px;
- color:black;
+#pixHolder {
+	margin-top: 50px;
+	margin-left: 30px;
+	width: 152px;
+	float: left;
+	overflow: hidden;
 }
  
-.tile{
- height:40px;
- width:40px;
- float:left;
- margin-right:10px;
- background-color:rgb(210, 130, 247);
- text-align:center;
- font-size:24px;
- color: black;
- padding-top:5px;
+#pixHolder img {
+	position: relative;
 }
  
-#finalMessage{
- text-align:center;
- font-size:40px;
- color:black;
- width:90%;
- margin:auto;
- margin-top:100px;
+#feedback {
+	margin-top: 20px;
+	margin-left: 250px;
+	font-size: 34px;
+	color: black;
 }
  
-#dummy{
- position:absolute;
- left:-200px;
- top:0px;
+.tile {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+	background-color: rgb(210, 130, 247);
+	text-align: center;
+	font-size: 24px;
+	color: black;
+	padding-top: 5px;
+}
+ 
+#finalMessage {
+	text-align: center;
+	font-size: 40px;
+	color: black;
+	width: 90%;
+	margin: auto;
+	margin-top: 100px;
 }
  
 @media screen and (max-width:800px) {
