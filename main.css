@@ -1,0 +1,182 @@
+html, body {
+	margin: 0;
+	padding: 0;
+  background-color:rgb(84, 21, 97);
+  font-family: 'Press Start 2P', cursive;
+	    }
+
+#topbar{
+ height:50px;
+ margin:auto;
+ margin-top:50px;
+ color: #fff;
+ font-size:36px;
+ width:800px;
+ border-bottom:solid black 3px;
+}
+
+#gameContent{
+ margin:auto;	
+ width:800px;
+ height:400px;
+ position:relative;
+ overflow:hidden;
+ background-color:rgb(132, 51, 170);
+}
+
+.spacer{height:30px;}
+
+
+
+
+#gameTitle{
+ margin-top:130px;
+ text-align:center;
+ font-size:40px;
+ color:black;}
+
+.button{font-size:13px;
+ width:100px;
+ margin:auto;
+ padding: 3px;
+ margin-top:20px;
+ cursor:pointer;
+ border:solid 1px white;
+ border-radius:4px;
+ text-align:center;
+ color:#fff;}
+
+.button:hover{
+ background-color:rgb(210, 130, 247);}
+
+#replay{
+ margin-left:0px;}
+ 
+
+
+
+
+
+#wordHolder{
+ margin-top:80px;
+ margin-left:250px;
+}
+ 
+#clueHolder{
+ margin-top:130px;
+ margin-left:250px;
+}
+ 
+#guesses{
+ margin-top:20px;
+ margin-left:250px;
+}
+ 
+#pixHolder{
+ margin-top: 50px;
+ margin-left:30px;
+ width:152px;
+ float:left;
+ overflow:hidden;
+}
+ 
+#pixHolder img{
+ position:relative;}
+ 
+#feedback{
+ margin-top:20px;
+ margin-left:250px;
+ font-size:34px;
+ color:black;
+}
+ 
+.tile{
+ height:40px;
+ width:40px;
+ float:left;
+ margin-right:10px;
+ background-color:rgb(210, 130, 247);
+ text-align:center;
+ font-size:24px;
+ color: black;
+ padding-top:5px;
+}
+ 
+#finalMessage{
+ text-align:center;
+ font-size:40px;
+ color:black;
+ width:90%;
+ margin:auto;
+ margin-top:100px;
+}
+ 
+#dummy{
+ position:absolute;
+ left:-200px;
+ top:0px;
+}
+ 
+@media screen and (max-width:800px) {
+ #topbar{
+	 margin-left:1%;
+	 margin-right:1%;	
+	 width:96%;
+ }
+ #gameContent{
+	 margin:1%;	
+	 width:98%;
+ }
+ .tile{
+	 height:20px;
+	 width:20px;
+	 font-size:14px;
+ }
+}
+ 
+@media screen and (max-width:560px) {
+ #wordHolder{
+	 margin-top:10px;
+	 margin-left:10px;
+ }
+ #clueHolder{
+	 margin-top:130px;
+	 margin-left:85px;
+ }
+ #guesses{
+	 margin-top:20px;
+	 margin-left:85px;
+ }
+ #pixHolder{
+	 margin-top:50px;
+	 margin-left:10px;
+	 position:absolute;
+ }
+ #feedback{
+	 margin-left:85px;
+	 font-size:28px;
+ }
+ #finalMessage{
+	 font-size:30px;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
